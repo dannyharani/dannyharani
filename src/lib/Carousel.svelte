@@ -1,59 +1,77 @@
+<script>
+    import horse from '../assets/temp horse.png'
+</script>
+
 <main>
-    <div class="arrow-left">
-        &lt;
-    </div>
-    <div class="content">
-        <img src="#" alt="">
-        <div class="push_content_left">
-            <h2>Chess Bot</h2>
-            <h4>Monday Feb 18</h4>
+    <div class="arrow-left arrow">
+        <div>
+            &lt;
         </div>
     </div>
-    <div class="arrow-right">
-        &gt;
+    <div class="wrapper">
+        <div class="image_container">
+            <img src="{horse}" alt="" class="image">
+        </div>
+        <div class="content">
+            <div>
+                <h2>Chess Bot</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+    <div class="arrow-right arrow">
+        <div>
+            &gt;
+        </div>
     </div>
 </main>
 
 <style>
     main {
+        display: grid;
+        grid-template-columns: 1fr 14fr 1fr;
+        gap: 0.8rem;
+        min-height: 300px;
+    }
+
+    .wrapper {
+        padding: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1.5rem;
+        border-radius: 25px;
+        border-style: solid;
+        border-width: 2px;
+    }
+
+    .wrapper > .content {
+        grid-column: span 2;
         display: flex;
-        min-width: 77vw;
-        max-width: fit-content;
+        align-items: center;
+    }
+
+    .arrow {
+        display: flex;
+        width: 60px;
+        align-items: center;
+        border-radius: 25px;
+        border-style: solid;
+        border-width: 2px;
+        margin-inline: auto;
+    }
+
+    .arrow > div {
         margin: auto;
     }
-    .content {
-        margin: 0 20px;
-        min-height: 10vh;
-        min-width: 60vw;
-        border-radius: 25px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
+
+    .image_container {
         display: flex;
-    }
-    
-    .arrow-left {
-        padding: 15vh 1.5vw;
-        border-radius: 50px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
+        align-items: center;
     }
 
-    .arrow-right {
-        padding: 15vh 1.5vw;
-        border-radius: 50px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
+    .image {
+        margin-inline: auto;
+        max-height: 65%;
     }
 
-    .push_content_left {
-        margin-left: auto;
-        display: flex;
-    }
-
-    h2 {
-        margin-right: 20px;
-    }
 </style>

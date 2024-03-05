@@ -4,6 +4,8 @@
   import Counter from './lib/Counter.svelte'
   import Banner from './lib/Banner.svelte';
   import Carousel from './lib/Carousel.svelte';
+  import IdeaContainer from './lib/IdeaContainer.svelte';
+  import ProgressContainer from './lib/ProgressContainer.svelte';
 </script>
 
 <!-- <main>
@@ -45,11 +47,23 @@
 <main>
   <div class="main_content">
     <div class="logo"><p>Harani Danny</p></div>
-    <div class="intro">
-      <h1>Hey,<br>Here is my<br>Portfolio💡</h1>
-      <div class="socials"><button>LinkedIn</button> <button>Github</button></div>
+    <div class="rows">
+      <div class="intro">
+        <h1>Hey,<br>Here is my<br>Portfolio💡</h1>
+        <div class="socials"><button>LinkedIn</button> <button>Github</button></div>
+      </div>
+      <div class="project_containers">
+        <div class="update_containers">
+          <div class="idea_container">
+            <IdeaContainer />
+          </div>
+          <div class="progress_container">
+            <ProgressContainer />
+          </div>
+        </div>
+        <Carousel />
+      </div>
     </div>
-    <Carousel />
   </div>
   <Banner/>
 </main>
@@ -57,8 +71,39 @@
 
 <style>
   main {
-    width: 77vw;
-    margin-left: 1.5vw;
+    padding: 1rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .main_content {
+    grid-column: span 4;
+  }
+
+  .rows {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 97.5%;
+  }
+
+  .project_containers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .update_containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    min-height: 210px;
+    margin: 20px 0 20px 0;
+  }
+
+  .progress_container {
+    grid-column: span 2;
   }
 
   .logo {
@@ -66,11 +111,6 @@
   }
 
   .intro {
-    display: flex;
-  }
-
-  .navbar {
-    padding: 40px;
     display: flex;
   }
 
