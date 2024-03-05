@@ -4,8 +4,8 @@
   import Counter from './lib/Counter.svelte'
   import Banner from './lib/Banner.svelte';
   import Carousel from './lib/Carousel.svelte';
-  import IdeaContainer from './lib/IdeaContainer.svelte';
   import ProgressContainer from './lib/ProgressContainer.svelte';
+  import IdeaContainer from './lib/IdeaContainer.svelte';
 
   alert("This website is not complete yet, the content is simply placeholder");
 </script>
@@ -57,7 +57,7 @@
       <div class="project_containers">
         <div class="update_containers">
           <div class="idea_container">
-            <IdeaContainer />
+            <IdeaContainer/>
           </div>
           <div class="progress_container">
             <ProgressContainer />
