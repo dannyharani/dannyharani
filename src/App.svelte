@@ -4,7 +4,7 @@
   import ProgressContainer from './lib/ProgressContainer.svelte';
   import IdeaContainer from './lib/IdeaContainer.svelte';
 
-  alert("This website is not complete yet, the content is simply placeholder");
+  alert("This website is not complete yet, the content is simply placeholder. Press OK to view the website");
 </script>
 
 <!-- <main>
