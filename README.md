@@ -5,8 +5,8 @@ I have a passion for programming and football (*soccer*).<br>
 When I'm not studying, programming or playing football, I can be found taking photos with a film camera or doing some simulated driving on F1 22.
 
 ## Here are some places to find me
-* [My Website](www.dannyharani.com)
-* [LinkedIn](www.linkedin.com/in/danny-harani)
+* [My Website](https://www.dannyharani.com)
+* [LinkedIn](https://www.linkedin.com/in/danny-harani)
 * Github *You're here already*
 
 ## Feel free to reach out to me at dannyharani@gmail.com
