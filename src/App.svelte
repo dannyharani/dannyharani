@@ -6,6 +6,8 @@
   import Carousel from './lib/Carousel.svelte';
   import IdeaContainer from './lib/IdeaContainer.svelte';
   import ProgressContainer from './lib/ProgressContainer.svelte';
+
+  alert("This website is not complete yet, the content is simply placeholder");
 </script>
 
 <!-- <main>
