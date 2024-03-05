@@ -9,6 +9,6 @@ When I'm not studying, programming or playing football, I can be found taking ph
 * [LinkedIn](https://www.linkedin.com/in/danny-harani)
 * Github *You're here already*
 
-## Feel free to reach out to me at dannyharani@gmail.com
+## Feel free to reach out to me at me@dannyharani.com
 <br><br>
 *My website is still in development*
