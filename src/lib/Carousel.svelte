@@ -62,6 +62,7 @@
         grid-template-columns: 1fr 14fr 1fr;
         gap: 0.8rem;
         min-height: 300px;
+        color: white;
     }
 
     .button {
