@@ -126,4 +126,12 @@
         max-width: 250px;
     }
 
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
 </style>
