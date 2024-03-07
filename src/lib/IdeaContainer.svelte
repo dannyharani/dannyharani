@@ -1,8 +1,23 @@
+<script lang="ts">
+    export let idea:Idea[] = []
+
+    let currentIdea = 0;
+    let description = idea[currentIdea].description
+
+    function nextIdea() {
+        currentIdea = (currentIdea + 1) % idea.length
+        description = idea[currentIdea].description
+    }
+
+    setInterval(nextIdea, 6000)
+
+</script>
+
 <main>
     <div>
         <h2>Idea</h2>
         <p>
-            3D Game viewed in 2D. The player will control the perspective to view different planes
+            {description}
         </p>
     </div>
 </main>
@@ -12,8 +27,8 @@
         display: flex;
         align-items: center;
         min-height: 100%;
-        background-color: #EEFF2D;
-        color: black;
+        background-color: var(--green);
+        color: white;
         border-radius: 25px;
     }
 

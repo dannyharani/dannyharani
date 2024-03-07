@@ -1,0 +1,19 @@
+{
+    "ideas": [
+        {
+            "description": "3D Game viewed in 2D. The player will control the perspective to view different planes",
+            "priority":"high",
+            "feasability":"med"
+        },
+        {
+            "description": "A chess game and bot in the unity engine. The chess bot will use home cooked machine learning to learn the best moves",
+            "priority":"high",
+            "feasability":"med"
+        },
+        {
+            "description": "A chiptune maker. Provided the mp3/mp4 of a song, generate a chiptune that follows the melody.",
+            "priority":"low",
+            "feasability":"low"
+        }
+    ]
+}

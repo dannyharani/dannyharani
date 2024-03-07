@@ -1,6 +1,26 @@
-<script>
-    import weather from '../assets/temp_weather.png'
-    import roadblock from '../assets/temp_roadblock.png'
+<script lang="ts">
+    const params = {
+        "latitude": 45.3001,
+        "longitude": -75.9161,
+        "hourly": "temperature_2m",
+        "forecast_days": 1
+    };
+    
+    let response = fetch("https://api.open-meteo.com/v1/forecast?latitude=45.3001&longitude=-75.9161&current=temperature_2m")
+    let temp = "";
+    fetch("https://api.open-meteo.com/v1/forecast?latitude=45.3001&longitude=-75.9161&current=temperature_2m").then(response => {
+        if (!response.ok) {
+            temp = "?"
+        }
+        console.log(response)
+    })
+    console.log(temp);
+
+    const dateObj = new Date();
+    let day = dateObj.toDateString().substring(0, 4);
+    let date = dateObj.toDateString().substring(4,);
+
+
 </script>
 
 <main>
@@ -9,18 +29,18 @@
             <h2>Today</h2>
         </div>
         <div class="date">
-            <h3>Tue</h3>
-            <p>September 10, 2024</p>
+            <h3>{day}</h3>
+            <p>{date}</p>
         </div>
         <div class="weather">
-            <img class="weather_image" src={weather} alt="">
+            <img class="weather_image" src="../../public/temp_weather.png" alt="">
             <div class="temperature">
                 <h2>13</h2>
                 <h2>&deg;C</h2>
             </div>
         </div>
         <div class="heartrate">
-            <img class="roadblock" src={roadblock} alt="">
+            <img class="roadblock" src="../../public/temp_roadblock.png" alt="">
             <h3>Under Construction</h3>
             <p>
                 brainstorming
@@ -34,24 +54,21 @@
         padding: 0 20px 0;
     }
     main {
-        min-height: 95vh;
         max-width: 400px;
         width: 100%;
-        background-color: #FF55E4;
+        background-color: var(--pink);
         display: block;
-        color: #163200;
+        color: white;
         border-radius: 20px;
         margin-inline: auto;
     }
 
     h2 {
-        color:  #163200;
         margin-bottom: 20px;
         margin-top: 30px;
     }
 
     .temperature > h2 {
-        color:  #163200;
         font-size: 40px;
         margin: 0;
         margin-inline: auto;

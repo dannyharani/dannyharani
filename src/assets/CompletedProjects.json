@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "title": "Wordle",
+            "description": "A re-thought challenge of the game wordle. Developed with react, vite, and firebase, this wordle clone rethinks the main mechanics of the game. Give it a try!",
+            "image_name":"wordle.png",
+            "link": "https://github.com/dannyharani/Wordle"
+        },
+        {
+            "title":"SimplyText",
+            "description":"SimplyText is a group endevour. Me and my group members sought out to create a OCR application that transcribes nursing documentation into a database. This database is searchable and secure.",
+            "image_name":"simplytext.png",
+            "ling": "https://github.com/Simply-Text/simply-text"
+        }
+    ]
+}

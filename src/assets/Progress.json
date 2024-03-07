@@ -1,0 +1,22 @@
+{
+    "progress": [
+        {
+            "title": "Wordle",
+            "description": "Add score counter and account handler. Store the score to the account",
+            "priority": "high",
+            "ratio": "0/3"
+        },
+        {
+            "title": "YouTube Gen",
+            "description": "A YouTube video generator. Generate a script and video using AI and image web searches",
+            "priority": "high",
+            "ratio": "4/6"
+        },
+        {
+            "title": "This Website!",
+            "description": "What else should I add to that sidebar? HeartRate? Instagram? Hmm...",
+            "priority": "low",
+            "ratio": "?"
+        }
+    ]
+}
