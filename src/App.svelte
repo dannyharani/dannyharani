@@ -148,6 +148,7 @@
     border-radius: 10px;
     border: none;
     margin-left: 10px;
+    margin-bottom: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: white;

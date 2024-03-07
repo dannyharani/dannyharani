@@ -7,8 +7,8 @@
             "link": "https://github.com/dannyharani/Wordle"
         },
         {
-            "title":"SimplyText",
-            "description":"SimplyText is a group endevour. Me and my group members sought out to create a OCR application that transcribes nursing documentation into a database. This database is searchable and secure.",
+            "title":"Simply Text",
+            "description":"Simply Text is a group endevour. Me and my group members sought out to create a OCR application that transcribes nursing documentation into a database. This database is searchable and secure.",
             "image_name":"simplytext.png",
             "ling": "https://github.com/Simply-Text/simply-text"
         }
