@@ -39,7 +39,7 @@
     <button class="button main_button" on:click={navigateToProject}>
         <div class="wrapper">
             <div class="image_container">
-                <img src="../../public/{image_name}" alt="" class="image">
+                <img src="{image_name}" alt="" class="image">
             </div>
             <div class="content">
                 <div>

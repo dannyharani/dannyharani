@@ -33,14 +33,14 @@
             <p>{date}</p>
         </div>
         <div class="weather">
-            <img class="weather_image" src="../../public/temp_weather.png" alt="">
+            <img class="weather_image" src="temp_weather.png" alt="">
             <div class="temperature">
                 <h2>13</h2>
                 <h2>&deg;C</h2>
             </div>
         </div>
         <div class="heartrate">
-            <img class="roadblock" src="../../public/temp_roadblock.png" alt="">
+            <img class="roadblock" src="temp_roadblock.png" alt="">
             <h3>Under Construction</h3>
             <p>
                 brainstorming

@@ -61,7 +61,7 @@
       <div class="rows">
         <div class="intro">
           <h1>Hey,<br>Here is my<br>Portfolio💡</h1>
-          <div class="socials"><button class="linkedin_button" on:click={navigateLinkedin}> <img src="../public/linkedin.png" alt="">LinkedIn</button> <button class="github_button" on:click = {navigateGithub}> <img alt="" src="../public/github.png"> Github</button></div>
+          <div class="socials"><button class="linkedin_button" on:click={navigateLinkedin}> <img src="linkedin.png" alt="">LinkedIn</button> <button class="github_button" on:click = {navigateGithub}> <img alt="" src="github.png"> Github</button></div>
         </div>
         <div class="project_containers">
           <div class="update_containers">
