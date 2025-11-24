@@ -19,7 +19,7 @@
         </section>
 
         <!-- Skills Grid -->
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 gap-8 pb-12">
             <section class="p-8 rounded-3xl bg-white/5 backdrop-blur-md border border-white/10">
                 <h2 class="text-xl font-bold text-white mb-6">Technical Stack</h2>
                 <div class="space-y-4">
